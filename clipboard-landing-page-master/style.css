@@ -1,0 +1,236 @@
+root{
+    --cyano-forte:hsl(171, 66%, 44%);
+    --azul-claro:hsl(233, 100%, 69%);
+    --azul-escruo:hsl(210, 10%, 33%);
+    --azul-grayish:hsl(201, 11%, 66%);
+}
+
+*{
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#Text-download{
+    height: 600px;
+}
+
+.containerDownload{
+    width: 900px;
+    margin: -35vh auto;
+    text-align: center;
+}
+
+.containerDownload h1{
+    margin:5vh 0px 0px 0px;
+    font-size: 45px;
+    color:var(--azul-escruo);
+}
+
+.containerDownload p{
+    width: 750px;
+    margin: 10px auto;
+    color:var(--azul-grayish);  
+    font-size: 20.5px;
+}
+
+.btnsDownload{
+    width: 460px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnsDownload button{
+    width: 220px;
+    height: 50px;
+    border-radius:10vh;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    box-shadow: -30px 25px 45px -11px rgba(209,209,209,1);
+}
+
+.btnsDownload button:nth-child(1){
+    background-color: rgb(0, 148, 148);
+    border-bottom: 3px solid hsl(171, 71%, 38%);
+}
+
+.btnsDownload button:nth-child(2){
+    background-color:rgb(3, 47, 134);
+    border-bottom: 3px solid hsl(233, 59%, 54%);
+}
+
+
+#computadores h1{
+    text-align: center;
+    color:var(--azul-escruo);
+    font-size: 35px;
+}
+
+#computadores .primeiroparagraph{
+    text-align: center;
+    width: 750px;
+    margin: 30px auto;
+    font-size: 20.5px;
+    color:var(--azul-grayish);  
+}
+
+.primeiracomputer{
+    margin-top: 15vh;
+    display: flex;
+}
+
+.primeiracomputer img{
+    margin: 0px 0px 0px 20px;
+}
+
+.textComputador{
+    height: 380px;
+    margin: 35px 0px 0px 14vh;
+}
+
+.textComputador h2{
+    margin:60px 0px 0px 0px;
+    color: var(--azul-escruo);
+}
+
+.textComputador p{
+    margin: 10px 0px 0px 0px;
+    color:var(--azul-grayish);
+}
+
+.segundacomputer{
+    text-align: center;
+}
+
+.segundacomputer h1{
+    margin: 25vh 0px 0px 0px;
+    color: var(--azul-escruo);
+    font-size: 35px;
+}
+
+.segundacomputer p{
+    margin: 20px 0px 0px 0px;
+    color:var(--azul-grayish);
+    font-size: 20.5px;
+}
+
+.segundacomputer img{
+    margin: 90px 0px 0px 0px;
+}
+
+#colunas h1{
+    text-align: center;
+    font-size: 35px;
+    color: var(--azul-escruo);
+    margin: 40px 0px 0px 0px;
+}
+
+#colunas .colunasCaracteristicas{
+    text-align: center;
+    font-size: 20.5px;
+    color: var(--cyano-forte);
+    margin: 20px 0px 0px 0px;
+}
+
+.grupos{
+    width: 160vh;
+    margin: 10vh auto;
+    display: flex;
+}
+
+.blacklist,
+.plain,
+.sneak{
+    width: 350px;
+    text-align: center;
+}
+
+.blacklist h2,
+.plain h2,
+.sneak h2{
+    margin: 20px 0px 10px 0px;
+    color: var(--azul-escruo);
+    font-size: 25px;
+}
+
+.blacklist p,
+.plain p,
+.sneak p{
+    color: var(--cyano-forte);
+}
+
+.patrocinadores{
+    width: 175vh;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.patrocinadores img{
+    aspect-ratio: 4/2;
+    object-fit: contain;
+}
+
+.downloadFinal{
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.downloadFinal h1{
+    font-size: 45px;
+    color: var(--azul-grayish);
+}
+
+.downloadFinal p{
+    margin-top: 25px;
+    font-size: 20.5px;
+    color: var(--cyano-forte);
+}
+
+.footerPadrao{
+    display: flex;
+    background-color:hsla(0, 0%, 84%, 0.308);
+    padding: 0px 20vh 0px 20vh;
+    margin: 20vh 0px 0px 0px;
+    height: 25vh;
+}
+
+.logoFooter{
+    margin: 0px 0px 0px 40px;
+    aspect-ratio: 6/6;
+    object-fit: contain;
+}
+
+.listaFooter{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vh;
+    height: 90px;
+    margin:auto 20vh;
+}
+
+.listaFooter li{
+    list-style:none;
+    margin: 20px 0px 0px 60px;
+}
+
+.listaFooter li:nth-child(2){
+    margin-left: 95px;
+}
+
+.listaFooter li a{
+    text-decoration: none;
+    color:var(--azul-escruo);    
+    font-size: 20.5px;
+}
+
+.contatos{
+    margin: auto;
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+}
